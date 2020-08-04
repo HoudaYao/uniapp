@@ -1,0 +1,15 @@
+
+.tip{
+  font-size: 28rpx;
+  padding: 50rpx;
+  text-align: center;
+  color:#ccc
+}
+.tip .txt,.tip image{
+  vertical-align: middle;
+}
+.tip image{
+  width:40rpx;
+  height:40rpx;
+}
+

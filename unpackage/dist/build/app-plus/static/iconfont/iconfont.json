@@ -1,0 +1,100 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "2451804",
+      "name": "我的",
+      "font_class": "wode",
+      "unicode": "e62f",
+      "unicode_decimal": 58927
+    },
+    {
+      "icon_id": "5640058",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e627",
+      "unicode_decimal": 58919
+    },
+    {
+      "icon_id": "13695131",
+      "name": "最爱",
+      "font_class": "zuiai",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    },
+    {
+      "icon_id": "13744091",
+      "name": "榜单",
+      "font_class": "bangdan",
+      "unicode": "e630",
+      "unicode_decimal": 58928
+    },
+    {
+      "icon_id": "15360922",
+      "name": "avatar09",
+      "font_class": "avatar09",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    },
+    {
+      "icon_id": "15361450",
+      "name": "avatar08",
+      "font_class": "08",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    },
+    {
+      "icon_id": "15362186",
+      "name": "avatar07",
+      "font_class": "07",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    },
+    {
+      "icon_id": "15362375",
+      "name": "avatar06",
+      "font_class": "06",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    },
+    {
+      "icon_id": "15363117",
+      "name": "avatar05",
+      "font_class": "05",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    },
+    {
+      "icon_id": "15369863",
+      "name": "avatar04",
+      "font_class": "04",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    },
+    {
+      "icon_id": "15370196",
+      "name": "avatar03",
+      "font_class": "03",
+      "unicode": "e613",
+      "unicode_decimal": 58899
+    },
+    {
+      "icon_id": "15376083",
+      "name": "avatar10",
+      "font_class": "10",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    },
+    {
+      "icon_id": "15392879",
+      "name": "avatar11",
+      "font_class": "11",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    }
+  ]
+}

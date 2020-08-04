@@ -1,0 +1,18 @@
+
+.container,.welcome,.swiper-item,.slide-image{
+  height:100%;
+  width:100%;
+}
+.swiper{
+	height:100%;
+	width:100%;
+}
+.start{
+  position: fixed;
+  bottom: 100px;
+  left:50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 140px;
+}
+

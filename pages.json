@@ -1,0 +1,86 @@
+{
+	"pages": [
+		{
+		    "path" : "pages/mine/mine",
+		    "style" : {
+				//#ifdef MP-WEIXIN
+				"usingComponents": {
+				  "van-button": "/wxcomponents/vant/button/index"
+				}
+				//#endif
+			}
+		},
+		{
+		    "path" : "pages/search/search",
+		    "style" : {
+				"navigationBarTitleText":"电影搜索"
+				
+			}
+		},
+		{
+			"path" : "pages/board/board",
+			"style" : {
+				"navigationBarTitleText":"榜单"
+			}
+		},
+		{
+			"path": "pages/welcome/welcome",
+			"style": {
+				"navigationBarTitleText": "豆瓣电影",
+				"navigationStyle":"custom"
+			}
+		}    
+        ,{
+            "path" : "pages/detail/detail",
+            "style" : {
+				 "navigationBarTitleText": ""
+			}
+        }
+        ,{
+            "path" : "pages/list/list",
+            "style" : {}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#007AFF",
+		"backgroundColor": "#FFFFFF"
+	},
+	"tabBar": {
+	  "selectedColor": "#4169E1",
+	  "backgroundColor": "#F5FFFA",
+	  "borderStyle": "white",
+	  "list": [
+	    {
+	      "text": "榜单",
+	      "pagePath": "pages/board/board",
+	      "iconPath": "/static/images/board.png",
+	      "selectedIconPath": "/static/images/board-actived.png"
+	    },
+	    {
+	      "text": "搜索",
+	      "pagePath": "pages/search/search",
+	      "iconPath": "/static/images/search.png",
+	      "selectedIconPath": "/static/images/search-actived.png"
+	    },
+	    {
+	      "text": "我的",
+	      "pagePath": "pages/mine/mine",
+	      "iconPath": "/static/images/mine.png",
+	      "selectedIconPath": "/static/images/mine-actived.png"
+	    }
+	  ]
+	  
+	},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	}
+}
